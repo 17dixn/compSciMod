@@ -26,8 +26,8 @@ public class TestItems
 	public static void registerRender(Item item)
 	{
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher()			 //All of this
-			.register(item, 0, new ModelResourceLocation(Reference.MODID + ":" + //is one
-			item.getUnlocalizedName().substring(5), "inventory")); 				 //line of code
+			.register(item, 0, new ModelResourceLocation(Reference.MODID + ":"   //is one
+			+ item.getUnlocalizedName().substring(5), "inventory")); 			 //line of code
 	}
 	
 	
